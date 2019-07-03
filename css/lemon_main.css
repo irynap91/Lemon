@@ -1,0 +1,267 @@
+
+
+body {
+  background-color: #eaeaea;
+  color: #2f2f2f;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/* Header */
+.logo {
+  margin: 130px 0 120px 0;
+}
+
+.box {
+background-color: #f8f8f8;
+box-shadow: 0 0 20px 10px lightgrey;
+}
+
+.box_white {
+  background-color: white;
+  box-shadow: 0 0 20px 10px lightgrey;
+}
+
+.logo_nav {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+
+.navigation {
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.navigation a {
+  text-decoration: none;
+  color: #2e2e2e;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.navigation a:hover {
+  color: #921026;
+}
+.navigation li {
+  display: block;
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  padding: 0;
+  background-color: #fff;
+  opacity: 0.8;
+  z-index: 10;
+  box-shadow: 0 0 5px lightgrey;
+}
+.submenu a {
+  text-decoration: none;
+  color: #c8c8c8;
+  font-weight: 300;
+}
+.submenu a:hover {
+  text-decoration: underline;
+  color: #2e2e2e;
+}
+.submenu li {
+  padding: 5px 20px 5px 20px;
+}
+.search {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+
+/* Section 1 */
+.caroussel-big {
+  margin-top: 85px;
+}
+.caroussel_bg {
+padding: 5px;
+margin: 0;
+width: 100%;
+z-index: 1;
+}
+.caroussel_content {
+  position: absolute;
+  z-index: 10;
+  padding-top: 70px;
+  padding-left: 8%;
+}
+.caroussel_content h2 {
+  padding: 20px 0 10px 0;
+  color: #921026;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+/* Section 2 */
+.popular_recepies {
+  padding: 35px 0 45px 3%;
+  margin: 80px 0 80px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.popular_recepies a {
+  text-decoration: none;
+  color: black;
+}
+.popular_recepies a:hover {
+  color: #921026;
+}
+
+.icons {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #555555;
+}
+
+/* Section 3 */
+
+.recepie_detailed {
+  z-index: 1;
+}
+/* .recepie_photo {
+  padding: 0;
+  margin: 0;
+} */
+.descr {
+  position: relative;
+  z-index: 10;
+  padding: 3% 5% 2% 0;
+  font-size: 14px;
+}
+
+.descr h2 {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.descr i {
+  padding: 8px 0 35px 0;
+}
+
+.descr a {
+  text-decoration: none;
+  color: #055555;
+}
+.descr a:hover {
+  color: #921026;
+}
+
+.descr li {
+  display: block;
+}
+.descr ul {
+  padding-left: 0;
+}
+
+.descr h6 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+.input_btn:hover {
+  border: 1px solid #921026;
+}
+
+/* Section 4 */
+.sorry-feedback {
+  margin-top: 130px;
+  margin-right: -2.5%;
+  margin-left: -2.5%;
+}
+
+.sorry {
+  margin-right: 5%;
+}
+.sorry-img {
+  z-index: 1;
+  position: absolute;
+}
+.sorry-content {
+  z-index: 10;
+  position: relative;
+}
+.sorry-feedback h5 {
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.sorry-btn {
+  margin-top: 350%;
+}
+
+.feedback p {
+  margin-bottom: 0;
+}
+.feedback h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.feedback h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.feedback-social a{
+  text-decoration: none;
+  color: #aaaaaa;
+  margin: 0;
+}
+.feedback-social a:hover{
+  color: #921026;
+}
+.feedback-signature {
+  padding: 5% 0 5% 45%;
+}
+
+.feedback-text {
+  font-size: 14px;
+  font-style: italic;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #2f2f2f;
+  margin: 145px 0 50px 0;
+  padding: 70px 0 70px 0;
+  color: #7d7d7d;
+  font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.footer_menu li {
+  display: block;
+  padding-right: 10px;
+}
+
+.footer-icons {
+  padding-left: 50%;
+}
+
+.footer_menu {
+  padding-top: 1%
+}
+
+.footer_menu a{
+  text-decoration: none;
+  color: #aaaaaa;
+  margin: 0;
+}
+.footer_menu a:hover{
+  color: #921026;
+}
