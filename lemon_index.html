@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/b8fb8b3db5.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css\lemon_main.css">
+  <script src="js\main.js"></script>
+  <title>Lemon</title>
+</head>
+<body>
+  <div class="container">
+
+<header>
+      <div class="row logo justify-content-center">
+            <img class="img-fluid" src="img\logo.png" alt="Lemon">
+      </div>
+<div class="box">
+    <div class="row justify-content-center">
+        <div class="col-lg-1 col-md-2 col-4">
+          <img class="logo_nav img-fluid" src="img\logo_small.png" alt="Lemon">
+        </div>
+
+        <div class="navigation  col-lg-7 col-md-7">
+          <nav>
+            <ul class="d-flex justify-content-end">
+              <li><a href="#">Home</a></li>
+              <li id="dropdown"><a href="#">Recepies&#9662;</a>
+                  <ul class="submenu" id="submenu">
+                    <li><a href="#">Recommended</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Quick & Easy</a></li>
+                    <li><a href="#">Healthy</a></li>
+                    <li><a href="#">Newest</a></li>
+                  </ul>
+              </li>
+              <li><a href="#">Photo galleries</a></li>
+              <li><a href="#">Videos</a></li>
+              <li><a href="#">All categories</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="search col-lg-2 col-md-2 col-4">
+          <input class="input" type="text" placeholder="Find a recepie">
+        </div>
+
+        <div class="mobile_navigation">
+          <div class="dropleft">
+            <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars fa-2x"></i></a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Home</a>
+              <a class="dropdown-item-text">Recepies</a>
+
+                <ul>
+                  <li><a  class="dropdown-item" href="#">Recommended</a></li>
+                  <li><a  class="dropdown-item" href="#">Popular</a></li>
+                  <li><a  class="dropdown-item" href="#">Quick & Easy</a></li>
+                  <li><a  class="dropdown-item" href="#">Healthy</a></li>
+                  <li><a  class="dropdown-item" href="#">Newest</a></li>
+                </ul>
+
+              <a class="dropdown-item" href="#">Photo galleries</a>
+              <a class="dropdown-item" href="#">Videos</a>
+              <a class="dropdown-item" href="#">All categories</a>
+            </div>
+          </div>
+        </div>
+
+  </div>
+</div>
+
+</header>
+
+  <section>
+
+    <div class="row caroussel-big justify-content-start">
+      <img class="img-fluid caroussel_bg" src="img\caroussel1.png" alt="Lemon">
+
+      <div class="col-lg-5 col-md-5 col-sm-5 col-6 caroussel_content">
+        <img class="img-fluid" src="img\logo_caroussel.png" alt="Lemon">
+        <h2>Bananas Foster Ice Cream Cake</h2>
+        <p>If you're looking for decadence, look no further — you've found the Holy Grail of desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice cream cake.</p>
+        <input class="input_btn" type="image" src="img\btn.png">
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+
+    <div class="box_white popular_recepies">
+      <div class="row d-flex justify-content-center">
+
+        <div class="col-lg-4 col-md-4 col-sm-8 col-8">
+          <a href="#"><img class="img-fluid" src="img\recepie1.png" alt="Raspberry & Cream Frozen Yogurt Pie">
+          <p>Raspberry & Cream Frozen Yogurt Pie</p></a>
+          <div class="icons">
+            <i class="far fa-clock"></i>35 mins |
+            <i class="far fa-comment"></i>7
+            <i class="far fa-eye"></i>14
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-8 col-8">
+          <a href="#"><img class="img-fluid" src="img\recepie2.png" alt="Giant Ice Cream Sandwich">
+          <p>Giant Ice Cream Sandwich</p></a>
+          <div class="icons">
+            <i class="far fa-clock"></i>20 mins |
+            <i class="far fa-comment"></i>4
+            <i class="far fa-eye"></i>356
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-8 col-8">
+          <a href="#"><img class="img-fluid" src="img\recepie3.png" alt="Dark Chocolate Crunch Ice Cream  Sandwich Cake">
+          <p>Dark Chocolate Crunch Ice Cream  Sandwich Cake</p></a>
+          <div class="icons">
+            <i class="far fa-clock"></i>15 mins |
+            <i class="far fa-comment"></i>4
+            <i class="far fa-eye"></i>167
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+    <div class="box_white_recepie recepie_detailed">
+      <div class="row d-flex justify-content-center">
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+        <img  class="img-fluid" src="img\recepie_descr.png" alt="Bananas Foster Ice Cream Cake">
+        </div>
+
+        <div class="descr col-lg-6 col-md-6 col-sm-10 col-10">
+          <h2><a href="#">Bananas Foster Ice Cream Cake</a></h2>
+          <div class="row icons justify-content-between">
+            <div class="col-lg-3">
+            <i class="far fa-clock"></i>15 mins
+            <i class="fas fa-signal"></i> Easy
+            </div>
+            <div class="col-lg-3">
+            <input class="recepie_btn input_btn" type="image" src="img\save_btn.png">
+            </div>
+          </div>
+          <div class="recepie_descr">
+          <ul>
+            <li>1 (8 ounce) container frozen whipped topping, thawed</li>
+            <li>20 chocolate round wafers, divided</li>
+            <li>1 (7 1/4 ounce) bottle Smucker's® Hot Dark Chocolate Microwaveable Topping, divided</li>
+          </ul>
+            <h6>Directions</h6>
+            <p>ARRANGE 8 to 9 ice cream sandwiches in 9-inch square pan, cutting to form an even layer. Spread with half of whipped topping. Break or crush chocolate wafers and sprinkle over the whipped cream. Microwave 1 cup of chocolate topping into small microwave-safe bowl on HIGH for 30 seconds. Drizzle evenly over wafers.
+                <br>TOP with remaining 8 to 9 ice cream sandwiches to form an even layer. Spread with remaining whipped topping. Freeze 3 hours or overnight.
+                <br>Remove from freezer 10 minutes before serving. Cut into squares.
+                <br>HEAT remaining topping. Drizzle each serving with topping. Sprinkle with decorator sprinkles.
+                <br>Nutritional information (amount per servings): Total Calories: 640. Sodium 440mg. Fat: 32g. Carbohydrates: 82g. Cholesterol: 40mg. Protein: 11g. Fiber: 1g.վ
+              </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<section>
+  <div class="container">
+    <div class="row sorry-feedback justify-content-between">
+
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="box_white sorry">
+                <div class="row justify-content-center">
+                  <img class="sorry-img img-fluid" src="img\404.png" alt="Sorry">
+                  <div class="col-lg-10 col-md-10 col-sm-10 col-10 sorry-content">
+                    <h5>404</h5><hr>
+                  </div>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-3 sorry-content">
+                    <input class="sorry-btn input_btn" type="image" src="img\back_btn.png">
+                  </div>
+                </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="box_white_feedback feedback">
+
+          <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-10 col-sm-10 col-10">
+              <h5>Author</h5><hr>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+              <img class="img-fluid" src="img\photo_author.png" alt="Karen Gray">
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-7">
+              <h4>Karen Gray</h4>
+              <p>United States</p>
+              <div class="feedback-social">
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+              </div><hr>
+              <h3>About Lemon</h3>
+              <p class="feedback-text">Over the fifteen-year life span of Food.com, we’ve learned that – in addition to eating – sharing is what you do best. And thanks to the 20 million of you who come here each month, we now have 500,000 recipes to show for it, more than anywhere else in the digital universe. We also have tons crazy-tempting photos, troves of recipe reviews and more than 2 million Facebook likes. That’s a heck of a lot of Food. Thank you!</p>
+              <img class="feedback-signature img-fluid" src="img\signature.png" alt="Signature">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="row justify-content-end">
+    <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+      <img src="img\logo_white.png" alt="Lemon">
+    </div>
+    <div class="footer_menu col-lg-6 col-md-6 col-sm-6 col-6">
+      <ul class="d-flex justify-content-end">
+        <a href="#"><li>HOME</li></a>
+        <a href="#"><li>Recipes</li></a>
+        <a href="#"><li>Photo Galleries</li></a>
+        <a href="#"><li>Videos</li></a>
+        <a href="#"><li>All Categories</li></a>
+      </ul>
+    </div>
+    <div class="footer_menu col-lg-4 col-md-4 col-sm-4 col-4">
+      <p>2016-2017 LEMON. All rights reserved</p>
+      <div class="footer-icons">
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-pinterest"></i></a>
+    </div>
+  </div>
+</footer>
+
+</div>
+</body>
+</html>
