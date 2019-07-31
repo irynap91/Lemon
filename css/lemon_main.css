@@ -1,5 +1,3 @@
-
-
 body {
   background-color: #eaeaea;
   color: #2f2f2f;
@@ -8,6 +6,9 @@ body {
   font-size: 16px;
 }
 
+.container {
+  width: auto;
+}
 /* Header */
 .logo {
   margin: 130px 0 120px 0;
@@ -48,6 +49,9 @@ box-shadow: 0 0 20px 10px lightgrey;
   text-transform: uppercase;
   padding-right: 20px;
 }
+.navigation li:last-child {
+  padding-right: 0;
+}
 
 .submenu {
   display: none;
@@ -74,6 +78,9 @@ box-shadow: 0 0 20px 10px lightgrey;
   padding-top: 45px;
   padding-bottom: 40px;
 }
+.mobile_navigation {
+  display: none;
+}
 
 /* Section 1 */
 .caroussel-big {
@@ -88,7 +95,7 @@ z-index: 1;
 .caroussel_content {
   position: absolute;
   z-index: 10;
-  padding-top: 70px;
+  padding-top: 6%;
   padding-left: 8%;
 }
 .caroussel_content h2 {
@@ -101,7 +108,7 @@ z-index: 1;
 
 /* Section 2 */
 .popular_recepies {
-  padding: 35px 0 45px 3%;
+  padding: 35px 3% 45px 3%;
   margin: 80px 0 80px 0;
   font-size: 18px;
   font-weight: 400;
@@ -122,16 +129,7 @@ z-index: 1;
 
 /* Section 3 */
 
-.recepie_detailed {
-  z-index: 1;
-}
-/* .recepie_photo {
-  padding: 0;
-  margin: 0;
-} */
 .descr {
-  position: relative;
-  z-index: 10;
   padding: 3% 5% 2% 0;
   font-size: 14px;
 }
@@ -168,9 +166,25 @@ z-index: 1;
   font-size: 16px;
   padding-bottom: 8px;
 }
-
-.input_btn:hover {
-  border: 1px solid #921026;
+.recepie_descr {
+  height: 53%;
+  overflow-x: auto;
+}
+.box_white_recepie {
+  background-color: white;
+  box-shadow: 0 0 20px 10px lightgrey;
+  height: 435px;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 3px grey;
+    border-radius: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 3px black;
 }
 
 /* Section 4 */
@@ -178,6 +192,11 @@ z-index: 1;
   margin-top: 130px;
   margin-right: -2.5%;
   margin-left: -2.5%;
+}
+
+.box_white_feedback {
+  background-color: white;
+  box-shadow: 0 0 20px 10px lightgrey;
 }
 
 .sorry {
@@ -264,4 +283,147 @@ footer {
 }
 .footer_menu a:hover{
   color: #921026;
+}
+
+@media screen and (max-width: 1199px) {
+.search {
+  padding-left: 0;
+}
+.navigation a {
+  font-size: 12px;
+}
+.caroussel_content {
+font-size: 12px;
+}
+.caroussel_content h2 {
+font-size: 16px;
+}
+.descr h2 {
+  font-size: 22px;
+}
+.descr h6, li, p {
+  font-size: 12px;
+}
+.feedback-text {
+  font-size: 12px;
+}
+.feedback h4 {
+  font-size: 21px;
+}
+.recepie_descr {
+  height: 48%;
+}
+.box_white_recepie {
+  height: 378px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.col-lg-7, .col-lg-1, .col-lg-3 {
+  width: auto;
+}
+.navigation a{
+  font-size: 8px;
+}
+.search {
+  margin-right: 10px;
+}
+.caroussel_content img {
+  width: 35%;
+}
+.recepie_descr {
+  height: 26%;
+}
+.box_white_recepie {
+  height: 277px;
+}
+.sorry-btn {
+  margin-left: -25px;
+  margin-top: 370%;
+}
+.feedback-text {
+height: 15%;
+overflow-x: auto;
+}
+.box_white_feedback {
+  height: 345px;
+}
+.footer_menu ul {
+flex-direction: column;
+padding-left: 200px;
+}
+.input {
+  width: 100%;
+}
+}
+@media screen and (max-width: 767px) {
+.logo {
+  display: none;
+}
+header {
+  padding-top: 15%;
+}
+.navigation li {
+  display: none;
+}
+.navigation {
+  display: none;
+}
+.mobile_navigation {
+  display: inline;
+  padding-top: 43px;
+}
+.mobile_navigation a {
+  text-decoration: none;
+  color: grey;
+  margin: 0;
+}
+.dropdown-menu {
+top: 20px;
+}
+.caroussel_content p {
+  display: none;
+}
+.input {
+  width: 95%;
+}
+.box_white_recepie {
+  height: auto;
+}
+.recepie_descr {
+  height: auto;
+  overflow-x: auto;
+}
+/* .sorry {
+  margin-left: 3px;
+} */
+.sorry-feedback {
+  margin-left: 0;
+  margin-right: -5%;
+}
+.feedback {
+  margin-top: 25%;
+  margin-left: -5%;
+}
+.box_white_feedback {
+  height: auto;
+}
+.feedback-text {
+height: auto;
+overflow-x: auto;
+}
+.footer_menu li{
+  display: none;
+}
+.footer-icons {
+  display: none;
+}
+}
+@media screen and (max-width: 433px) {
+.recepie_btn {
+  width: 40%;
+}
+.caroussel_content h2 {
+  font-size: 12px;
+}
 }
